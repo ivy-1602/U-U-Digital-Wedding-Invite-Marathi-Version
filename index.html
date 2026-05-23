@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta name="theme-color" content="#000000">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <title>उदय &amp; उन्नती — विवाह निमंत्रण</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Cinzel:wght@400;600&family=Tiro+Devanagari+Marathi:ital@0;1&family=Noto+Serif+Devanagari:wght@400;600;700&display=swap" rel="stylesheet"/>
+
+  <link rel="preload" as="image" href="assets/ganpati.png"/>
+  <link rel="preload" as="image" href="assets/1.png"/>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <style>
+    /* Marathi version — Devanagari font overrides */
+    body, .hero-shubh, .hero-names-en, .fam-parents, .fam-label,
+    .invite-text, .ev-tl-name, .ev-tl-sub, .ev-tl-detail span,
+    .ev-name-mr, .ev-name-en, .ev-detail-row span, .ev-eyebrow,
+    .scratch-hint, .scratch-headline, .scratch-date-label,
+    .scratch-date-main, .scratch-date-day, .venue-name, .venue-addr,
+    .sec-head, .eyebrow, .cd-lbl, .cd-sub, .note-en, .note-sig-en,
+    .footer-amp, .c-name-mr, .scroll-txt, .dir-btn {
+      font-family: 'Tiro Devanagari Marathi', 'Noto Serif Devanagari', 'Cormorant Garamond', serif !important;
+    }
+    .groom-name, .bride-name {
+      font-family: 'Noto Serif Devanagari', 'Tiro Devanagari Marathi', serif !important;
+      letter-spacing: .01em !important;
+    }
+    .hero-names-en { letter-spacing: .03em !important; }
+    .ev-tl-heading-label { font-family: 'Noto Serif Devanagari', serif !important; letter-spacing: .08em !important; }
+  </style>
+</head>
+  <script defer src="https://www.googletagmanager.com/gtag/js?id=G-85FC75N1NV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-85FC75N1NV', { 'send_page_view': false });
+    window.addEventListener('load', () => gtag('event', 'page_view'));
+  </script>
+</head>
+<body>
+
+<!-- ── SPLASH SCREEN ── -->
+<div id="splash">
+  <!-- Background — always blurred -->
+  <div id="splash-bg"></div>
+  <!-- Vignette -->
+  <div id="splash-vignette"></div>
+  <!-- Curtains (semi-opaque overlays that lift on tap) -->
+  <div id="curtain-top"></div>
+  <div id="curtain-bottom"></div>
+
+  <!-- Centre content -->
+  <div id="splash-content">
+
+    <!-- Animated Lotus — built from CSS-animated SVG layers -->
+    <div id="lotus-wrap">
+      <!-- Outer petal ring (slowest rotation) -->
+      <svg class="lotus-ring ring-outer" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="lp1" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" stop-color="#FFF8C0"/>
+            <stop offset="55%" stop-color="#D4A030"/>
+            <stop offset="100%" stop-color="#8B4010" stop-opacity="0.15"/>
+          </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="100" rx="9" ry="42" fill="url(#lp1)" opacity="0.6" transform="rotate(0,100,100)"/>
+        <ellipse cx="100" cy="100" rx="9" ry="42" fill="url(#lp1)" opacity="0.6" transform="rotate(45,100,100)"/>
+        <ellipse cx="100" cy="100" rx="9" ry="42" fill="url(#lp1)" opacity="0.6" transform="rotate(90,100,100)"/>
+        <ellipse cx="100" cy="100" rx="9" ry="42" fill="url(#lp1)" opacity="0.6" transform="rotate(135,100,100)"/>
+        <ellipse cx="100" cy="100" rx="9" ry="42" fill="url(#lp1)" opacity="0.6" transform="rotate(180,100,100)"/>
+        <ellipse cx="100" cy="100" rx="9" ry="42" fill="url(#lp1)" opacity="0.6" transform="rotate(225,100,100)"/>
+        <ellipse cx="100" cy="100" rx="9" ry="42" fill="url(#lp1)" opacity="0.6" transform="rotate(270,100,100)"/>
+        <ellipse cx="100" cy="100" rx="9" ry="42" fill="url(#lp1)" opacity="0.6" transform="rotate(315,100,100)"/>
+      </svg>
+      <!-- Mid petal ring (medium rotation) -->
+      <svg class="lotus-ring ring-mid" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="lp2" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" stop-color="#FFFBD0"/>
+            <stop offset="50%" stop-color="#E8B840"/>
+            <stop offset="100%" stop-color="#A06020" stop-opacity="0.25"/>
+          </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="100" rx="7" ry="32" fill="url(#lp2)" opacity="0.8" transform="rotate(22.5,100,100)"/>
+        <ellipse cx="100" cy="100" rx="7" ry="32" fill="url(#lp2)" opacity="0.8" transform="rotate(67.5,100,100)"/>
+        <ellipse cx="100" cy="100" rx="7" ry="32" fill="url(#lp2)" opacity="0.8" transform="rotate(112.5,100,100)"/>
+        <ellipse cx="100" cy="100" rx="7" ry="32" fill="url(#lp2)" opacity="0.8" transform="rotate(157.5,100,100)"/>
+        <ellipse cx="100" cy="100" rx="7" ry="32" fill="url(#lp2)" opacity="0.8" transform="rotate(202.5,100,100)"/>
+        <ellipse cx="100" cy="100" rx="7" ry="32" fill="url(#lp2)" opacity="0.8" transform="rotate(247.5,100,100)"/>
+      </svg>
+      <!-- Inner petal ring (fastest rotation, opposite direction) -->
+      <svg class="lotus-ring ring-inner" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="lp3" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" stop-color="#FFFFFF"/>
+            <stop offset="40%" stop-color="#F8D860"/>
+            <stop offset="100%" stop-color="#C07820" stop-opacity="0.3"/>
+          </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="100" rx="5.5" ry="22" fill="url(#lp3)" opacity="1" transform="rotate(0,100,100)"/>
+        <ellipse cx="100" cy="100" rx="5.5" ry="22" fill="url(#lp3)" opacity="1" transform="rotate(60,100,100)"/>
+        <ellipse cx="100" cy="100" rx="5.5" ry="22" fill="url(#lp3)" opacity="1" transform="rotate(120,100,100)"/>
+        <ellipse cx="100" cy="100" rx="5.5" ry="22" fill="url(#lp3)" opacity="1" transform="rotate(180,100,100)"/>
+        <ellipse cx="100" cy="100" rx="5.5" ry="22" fill="url(#lp3)" opacity="1" transform="rotate(240,100,100)"/>
+        <ellipse cx="100" cy="100" rx="5.5" ry="22" fill="url(#lp3)" opacity="1" transform="rotate(300,100,100)"/>
+      </svg>
+      <!-- Static centre glow -->
+      <svg class="lotus-centre" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="lgc" cx="50%" cy="40%">
+            <stop offset="0%" stop-color="#FFFFFF"/>
+            <stop offset="35%" stop-color="#FFF0A0"/>
+            <stop offset="100%" stop-color="#C8833A"/>
+          </radialGradient>
+          <radialGradient id="lga" cx="50%" cy="50%">
+            <stop offset="0%" stop-color="#FFE060" stop-opacity="0.6"/>
+            <stop offset="100%" stop-color="#FFE060" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <!-- Ambient bloom -->
+        <ellipse cx="100" cy="100" rx="52" ry="52" fill="url(#lga)"/>
+        <!-- Centre jewel -->
+        <circle cx="100" cy="100" r="13" fill="url(#lgc)"/>
+        <circle cx="100" cy="100" r="6" fill="#FFFBD0"/>
+        <circle cx="97" cy="97" r="2" fill="white" opacity="0.7"/>
+      </svg>
+    </div>
+
+    <!-- Glass invitation card -->
+<div id="splash-card">
+
+  <!-- Ornament top -->
+  <div class="sc-orn">
+    <span class="sc-line"></span>
+    <svg width="48" height="18" viewBox="0 0 48 18" fill="none">
+      <line x1="0" y1="9" x2="48" y2="9" stroke="#C9922A" stroke-width="0.5" opacity="0.4"/>
+      <line x1="0" y1="11.5" x2="48" y2="11.5" stroke="#C9922A" stroke-width="0.5" opacity="0.25"/>
+      <ellipse cx="24" cy="9" rx="8" ry="5" fill="none" stroke="#C9922A" stroke-width="0.9" opacity="0.85"/>
+      <circle cx="24" cy="9" r="2.2" fill="#C9922A" opacity="0.95"/>
+      <circle cx="24" cy="9" r="1" fill="#FFE085" opacity="0.7"/>
+      <circle cx="10" cy="9" r="1.4" fill="#C9922A" opacity="0.6"/>
+      <circle cx="38" cy="9" r="1.4" fill="#C9922A" opacity="0.6"/>
+      <circle cx="4"  cy="9" r="0.8" fill="#C9922A" opacity="0.35"/>
+      <circle cx="44" cy="9" r="0.8" fill="#C9922A" opacity="0.35"/>
+    </svg>
+    <span class="sc-line"></span>
+  </div>
+
+  <p class="sc-sub">आपले सहर्ष स्वागत आहे</p>
+
+  <button id="splash-btn" type="button">
+    <span class="sb-stars">✦</span>
+    <span class="sb-text">निमंत्रण उघडा</span>
+    <span class="sb-stars">✦</span>
+  </button>
+
+  <!-- Ornament bottom — identical motif -->
+  <div class="sc-orn" style="margin-top:.6rem;margin-bottom:0">
+    <span class="sc-line"></span>
+    <svg width="48" height="18" viewBox="0 0 48 18" fill="none">
+      <line x1="0" y1="9" x2="48" y2="9" stroke="#C9922A" stroke-width="0.5" opacity="0.4"/>
+      <line x1="0" y1="6.5" x2="48" y2="6.5" stroke="#C9922A" stroke-width="0.5" opacity="0.25"/>
+      <ellipse cx="24" cy="9" rx="8" ry="5" fill="none" stroke="#C9922A" stroke-width="0.9" opacity="0.85"/>
+      <circle cx="24" cy="9" r="2.2" fill="#C9922A" opacity="0.95"/>
+      <circle cx="24" cy="9" r="1" fill="#FFE085" opacity="0.7"/>
+      <circle cx="10" cy="9" r="1.4" fill="#C9922A" opacity="0.6"/>
+      <circle cx="38" cy="9" r="1.4" fill="#C9922A" opacity="0.6"/>
+      <circle cx="4"  cy="9" r="0.8" fill="#C9922A" opacity="0.35"/>
+      <circle cx="44" cy="9" r="0.8" fill="#C9922A" opacity="0.35"/>
+    </svg>
+    <span class="sc-line"></span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+
+<style>
+/* ══ SPLASH ══════════════════════════════════════════ */
+#splash {
+  position: fixed; inset: 0; z-index: 99999;
+  overflow: hidden;
+  font-family: 'Cinzel', serif;
+}
+/* BG — lightly blurred, not too dark */
+#splash-bg {
+  position: absolute; inset: 0; z-index: 1;
+  background: url('assets/splash-bg.jpg') center/cover no-repeat;
+  filter: blur(3.5px) brightness(1.02) scale(1.05); /* prevents blur edge bleeding */
+}
+#splash-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+
+  background: radial-gradient(
+    ellipse 90% 90% at 50% 50%,
+    rgba(255,240,220,0.02) 20%,
+    rgba(20,0,0,0.16) 100%
+  );
+
+  pointer-events: none;
+}
+/* Curtains — soft luxury cinematic overlay */
+#curtain-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  z-index: 3;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(55, 15, 15, 0.30) 0%,
+      rgba(35, 8, 8, 0.14) 55%,
+      rgba(20, 4, 4, 0.08) 100%
+    );
+
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+
+  transform-origin: top center;
+  transition: transform 1.1s cubic-bezier(.77,0,.175,1);
+  will-change: transform;
+}
+
+#curtain-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  z-index: 3;
+
+  background:
+    linear-gradient(
+      0deg,
+      rgba(55, 15, 15, 0.30) 0%,
+      rgba(35, 8, 8, 0.14) 55%,
+      rgba(20, 4, 4, 0.08) 100%
+    );
+
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+
+  transform-origin: bottom center;
+  transition: transform 1.1s cubic-bezier(.77,0,.175,1);
+  will-change: transform;
+}
+
+/* Gold seam line */
+#curtain-top::after,
+#curtain-bottom::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1.5px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(190,130,40,.22) 18%,
+      rgba(255,215,120,.88) 50%,
+      rgba(190,130,40,.22) 82%,
+      transparent 100%
+    );
+
+  box-shadow:
+    0 0 8px rgba(255,200,80,.22),
+    0 0 18px rgba(255,180,60,.10);
+}
+
+#curtain-top::after {
+  bottom: 0;
+}
+
+#curtain-bottom::before {
+  top: 0;
+}
+
+/* Content layer */
+#splash-content {
+  position: absolute; inset: 0; z-index: 5;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 0; pointer-events: none;
+}
+
+/* ── Lotus ── */
+#lotus-wrap {
+  position: relative;
+  width: clamp(150px, 42vw, 200px);
+  height: clamp(150px, 42vw, 200px);
+  margin-bottom: -18px;
+  filter: drop-shadow(0 0 24px rgba(255,220,60,.85)) drop-shadow(0 0 60px rgba(200,140,20,.5));
+}
+.lotus-ring, .lotus-centre {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+}
+/* Outer petals: slow clockwise */
+.ring-outer  { animation: spin-cw 18s linear infinite; transform-origin: center; }
+/* Mid petals: medium counter-clockwise */
+.ring-mid    { animation: spin-ccw 12s linear infinite; transform-origin: center; }
+/* Inner petals: faster clockwise */
+.ring-inner  { animation: spin-cw 7s linear infinite; transform-origin: center; }
+/* Centre: static */
+.lotus-centre { animation: none; }
+
+@keyframes spin-cw  { from { transform: rotate(0deg);    } to { transform: rotate(360deg);  } }
+@keyframes spin-ccw { from { transform: rotate(0deg);    } to { transform: rotate(-360deg); } }
+
+#splash-card {
+  background: linear-gradient(
+    160deg,
+    rgba(70, 20, 20, 0.18) 0%,
+    rgba(40, 10, 10, 0.10) 100%
+  );
+
+  backdrop-filter: blur(28px) saturate(1.4) brightness(1.12);
+  -webkit-backdrop-filter: blur(28px) saturate(1.4) brightness(1.12);
+
+  border: 1px solid rgba(255,215,120,.20);
+  border-top: 1px solid rgba(255,235,160,.34);
+
+  border-radius: 6px;
+  padding: 1.8rem 2.6rem 1.6rem;
+
+  box-shadow:
+    0 10px 40px rgba(0,0,0,.28),
+    0 0 0 1px rgba(120,40,10,.22),
+    0 0 24px rgba(180,120,40,.10),
+    inset 0 1px 0 rgba(255,230,160,.18);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+
+  pointer-events: auto;
+  min-width: clamp(270px, 76vw, 350px);
+}
+/* Ornament row */
+.sc-orn {
+  display: flex; align-items: center; gap: .7rem;
+  width: 100%; margin-bottom: .2rem;
+}
+.sc-line {
+  flex: 1; height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(201,146,42,.5), transparent);
+}
+.sc-sub {
+  font-family: 'Tiro Devanagari Marathi', 'Noto Serif Devanagari', serif;
+  font-style: italic;
+  font-size: clamp(1.1rem, 3.2vw, 1.3rem);
+  color: rgba(255,220,160,.8);
+  letter-spacing: .02em;
+  margin: -.3rem 0 .2rem;
+}
+/* Button — Luxury Edition */
+#splash-btn {
+  position: relative;
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: .85rem;
+  width: 100%;
+  padding: 1.15rem 2rem;
+  border-radius: 4px;
+  border: none; outline: none; cursor: pointer;
+  overflow: hidden;
+  /* Rich layered crimson-to-maroon gradient */
+  background: linear-gradient(
+    175deg,
+    #B01010 0%,
+    #8A0A0A 25%,
+    #6E0808 50%,
+    #8A0A0A 75%,
+    #B01010 100%
+  );
+  /* Multi-layer shadow: gold ring + deep glow + lift */
+  box-shadow:
+    0 0 0 1px rgba(180,100,10,.5),
+    0 0 0 2px rgba(255,195,55,.55),
+    0 0 0 3px rgba(100,20,5,.6),
+    0 6px 32px rgba(0,0,0,.65),
+    0 2px 8px rgba(0,0,0,.5),
+    inset 0 1.5px 0 rgba(255,210,80,.3),
+    inset 0 -2px 0 rgba(0,0,0,.4),
+    inset 0 0 20px rgba(180,20,10,.4);
+  transition: transform .18s ease, box-shadow .22s ease, filter .18s ease;
+}
+/* Shimmer sweep on hover */
+#splash-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 35%,
+    rgba(255,220,100,.18) 50%,
+    transparent 65%
+  );
+  transform: translateX(-100%);
+  transition: transform .55s cubic-bezier(.4,0,.2,1);
+  pointer-events: none;
+}
+#splash-btn:hover::before { transform: translateX(100%); }
+/* Gold top-edge line */
+#splash-btn::after {
+  content: '';
+  position: absolute; top: 0; left: 10%; right: 10%; height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,220,80,.7), transparent);
+  pointer-events: none;
+}
+#splash-btn:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.12);
+  box-shadow:
+    0 0 0 1px rgba(200,130,20,.6),
+    0 0 0 2px rgba(255,210,60,.75),
+    0 0 0 3px rgba(100,20,5,.5),
+    0 10px 42px rgba(0,0,0,.7),
+    0 4px 14px rgba(160,30,10,.45),
+    inset 0 1.5px 0 rgba(255,220,100,.4),
+    inset 0 -2px 0 rgba(0,0,0,.45),
+    0 0 28px rgba(200,80,20,.35);
+}
+#splash-btn:active { transform: translateY(1px) scale(.987); filter: brightness(.97); }
+.sb-text {
+  font-family: 'Noto Serif Devanagari', 'Tiro Devanagari Marathi', serif;
+  font-size: 30px;
+  color: #FFE085; font-weight: 700;
+  text-shadow:
+    0 0 14px rgba(255,200,40,.8),
+    0 0 28px rgba(255,160,20,.4),
+    0 1px 3px rgba(0,0,0,.8);
+  position: relative; z-index: 1;
+}
+.sb-stars {
+  color: rgba(255,210,70,.85);
+  font-size: 1rem;
+  text-shadow: 0 0 8px rgba(255,200,60,.9);
+  position: relative; z-index: 1;
+}
+
+/* Mobile: tap highlight & smaller padding */
+@media (max-width: 480px) {
+  #splash-card {
+    min-width: clamp(260px, 88vw, 340px);
+    padding: 1.5rem 1.6rem 1.3rem;
+    border-radius: 5px;
+  }
+  #splash-btn {
+    padding: 1.05rem 1.4rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+  #lotus-wrap {
+    width: clamp(130px, 38vw, 170px);
+    height: clamp(130px, 38vw, 170px);
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  #splash-btn::before { transition: none; }
+}
+
+/* On open: curtains fly off, bg stays blurred */
+#splash.opening #curtain-top    { transform: translateY(-100%); }
+#splash.opening #curtain-bottom { transform: translateY(100%); }
+
+</style>
+
+<audio id="bg-audio" loop preload="none">
+  <source src="assets/bgm.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.getElementById('splash-btn').addEventListener('click', function() {
+  const splash = document.getElementById('splash');
+  splash.classList.add('opening');
+  document.getElementById('bg-audio').play().catch(() => {});
+  setTimeout(() => {
+    splash.style.transition = 'opacity .32s ease';
+    splash.style.opacity = '0';
+  }, 940);
+  setTimeout(() => splash.remove(), 1280);
+});
+</script>
+
+
+<div id="progress-bar"></div>
+<canvas id="petal-canvas-2d" style="position:fixed;inset:0;pointer-events:none;z-index:2;"></canvas>
+
+
+<!-- §1 HERO ═══════════════════════════════════════ -->
+<section id="hero">
+
+  <svg class="sw tl" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path fill="#F0C878" d="M26 8h8v18h18v8H34v18h-8V34H8v-8h18V8z M34 8h18v8H34z M44 34h8v18h-8z M8 44h18v8H8z M8 8h8v18H8z"/>
+  </svg>
+  <svg class="sw tr" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path fill="#F0C878" d="M26 8h8v18h18v8H34v18h-8V34H8v-8h18V8z M34 8h18v8H34z M44 34h8v18h-8z M8 44h18v8H8z M8 8h8v18H8z"/>
+  </svg>
+  <svg class="sw bl" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path fill="#F0C878" d="M26 8h8v18h18v8H34v18h-8V34H8v-8h18V8z M34 8h18v8H34z M44 34h8v18h-8z M8 44h18v8H8z M8 8h8v18H8z"/>
+  </svg>
+  <svg class="sw br" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path fill="#F0C878" d="M26 8h8v18h18v8H34v18h-8V34H8v-8h18V8z M34 8h18v8H34z M44 34h8v18h-8z M8 44h18v8H8z M8 8h8v18H8z"/>
+  </svg>
+
+  <div class="ganpati-wrap">
+    <img src="assets/ganpati.png" alt="Ganpati Bappa" class="ganpati-img" width="115" height="115"
+         onerror="this.style.display='none';document.getElementById('ganpati-fallback').style.display='block';"/>
+    <p id="ganpati-fallback" class="ganpati-fallback">Ganpati Bappa</p>
+  </div>
+
+  <p class="hero-invocation">॥ श्री गणेशाय नमः ॥
+  <h1><p class="hero-shubh">शुभ विवाह सोहळ्यास <br>आपणास सादर निमंत्रण </p></h1>
+  <div class="hero-names">
+    <div class="hero-names-row">
+      <div class="hero-name-block">
+        <h1 class="groom-name">उदय</h1>
+      </div>
+      <div class="hero-centre-img">
+        <img src="assets/1.png" alt="" class="hero-centre-icon" width="130" height="130"
+             onerror="this.style.display='none';"/>
+      </div>
+      <div class="hero-name-block">
+        <h1 class="bride-name">उन्नती</h1>
+      </div>
+    </div>
+    <p class="hero-names-en">उदय <em class="en-amp">संग  </em>  उन्नती</p>
+  </div>
+
+  <div class="hero-ornament-frame" aria-hidden="true">
+    <svg class="hof top" viewBox="0 0 360 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <line x1="0" y1="14" x2="360" y2="14" stroke="#C9922A" stroke-width="1" opacity="0.5"/>
+      <line x1="0" y1="10" x2="360" y2="10" stroke="#C9922A" stroke-width="0.5" opacity="0.3"/>
+      <line x1="0" y1="18" x2="360" y2="18" stroke="#C9922A" stroke-width="0.5" opacity="0.3"/>
+      <ellipse cx="180" cy="14" rx="22" ry="8" fill="none" stroke="#C9922A" stroke-width="0.8" opacity="0.6"/>
+      <circle cx="180" cy="14" r="3" fill="#C9922A" opacity="0.7"/>
+      <circle cx="150" cy="14" r="2" fill="#C9922A" opacity="0.5"/>
+      <circle cx="210" cy="14" r="2" fill="#C9922A" opacity="0.5"/>
+      <path d="M10 14 Q30 6 50 14 Q30 22 10 14" fill="none" stroke="#C9922A" stroke-width="0.8" opacity="0.55"/>
+      <path d="M350 14 Q330 6 310 14 Q330 22 350 14" fill="none" stroke="#C9922A" stroke-width="0.8" opacity="0.55"/>
+    </svg>
+    <svg class="hof bottom" viewBox="0 0 360 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <line x1="0" y1="14" x2="360" y2="14" stroke="#C9922A" stroke-width="1" opacity="0.5"/>
+      <line x1="0" y1="10" x2="360" y2="10" stroke="#C9922A" stroke-width="0.5" opacity="0.3"/>
+      <line x1="0" y1="18" x2="360" y2="18" stroke="#C9922A" stroke-width="0.5" opacity="0.3"/>
+      <ellipse cx="180" cy="14" rx="22" ry="8" fill="none" stroke="#C9922A" stroke-width="0.8" opacity="0.6"/>
+      <circle cx="180" cy="14" r="3" fill="#C9922A" opacity="0.7"/>
+      <circle cx="150" cy="14" r="2" fill="#C9922A" opacity="0.5"/>
+      <circle cx="210" cy="14" r="2" fill="#C9922A" opacity="0.5"/>
+      <path d="M10 14 Q30 6 50 14 Q30 22 10 14" fill="none" stroke="#C9922A" stroke-width="0.8" opacity="0.55"/>
+      <path d="M350 14 Q330 6 310 14 Q330 22 350 14" fill="none" stroke="#C9922A" stroke-width="0.8" opacity="0.55"/>
+    </svg>
+    <svg class="hof left" viewBox="0 0 28 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <line x1="14" y1="0" x2="14" y2="500" stroke="#C9922A" stroke-width="1" opacity="0.5"/>
+      <line x1="10" y1="0" x2="10" y2="500" stroke="#C9922A" stroke-width="0.5" opacity="0.3"/>
+      <line x1="18" y1="0" x2="18" y2="500" stroke="#C9922A" stroke-width="0.5" opacity="0.3"/>
+      <circle cx="14" cy="100" r="2.5" fill="#C9922A" opacity="0.5"/>
+      <circle cx="14" cy="250" r="2.5" fill="#C9922A" opacity="0.5"/>
+      <circle cx="14" cy="400" r="2.5" fill="#C9922A" opacity="0.5"/>
+    </svg>
+    <svg class="hof right" viewBox="0 0 28 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <line x1="14" y1="0" x2="14" y2="500" stroke="#C9922A" stroke-width="1" opacity="0.5"/>
+      <line x1="10" y1="0" x2="10" y2="500" stroke="#C9922A" stroke-width="0.5" opacity="0.3"/>
+      <line x1="18" y1="0" x2="18" y2="500" stroke="#C9922A" stroke-width="0.5" opacity="0.3"/>
+      <circle cx="14" cy="100" r="2.5" fill="#C9922A" opacity="0.5"/>
+      <circle cx="14" cy="250" r="2.5" fill="#C9922A" opacity="0.5"/>
+      <circle cx="14" cy="400" r="2.5" fill="#C9922A" opacity="0.5"/>
+    </svg>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true">
+    <span class="scroll-txt">स्क्रोल करा</span>
+    <div class="scroll-line"></div>
+  </div>
+
+</section>
+
+
+<!-- §2 BLESSINGS ═══════════════════════════════════ -->
+<section id="blessings">
+  <h2 class="sec-head">स्नेहपूर्वक आमंत्रण</h2>
+
+  <div class="bless-card reveal reveal-scale">
+
+    <div class="family-block">
+      <span class="fam-label">वराचे कुटुंब</span>
+      <p class="fam-parents">
+        <b>पुण्यस्मरण<br></b>
+कै. सौ. उर्मिलाबाई सुखवासराव साळुंके<br>यांचा नातू<br>व<br>
+        सौ. मालती व श्री. सतीश साळुंके<br>
+        यांचा लाडका सुपुत्र
+      </p>
+      <div class="name-bar"></div>
+      <p class="c-name-mr">चि. उदय सतीश साळुंके</p>
+    </div>
+
+    <div class="fam-sep" aria-hidden="true">
+  <span class="sep-line"></span>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <defs>
+      <linearGradient id="goldWhitePetals" x1="0" y1="0" x2="24" y2="24">
+        <stop offset="0%" stop-color="#FFFDF7"/>
+        <stop offset="35%" stop-color="#FBE7A1"/>
+        <stop offset="70%" stop-color="#D4A437"/>
+        <stop offset="100%" stop-color="#FFF6D8"/>
+      </linearGradient>
+      <radialGradient id="goldCenter" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#FFF8DC"/>
+        <stop offset="100%" stop-color="#C88A1A"/>
+      </radialGradient>
+    </defs>
+    <g fill="url(#goldWhitePetals)">
+      <ellipse cx="12" cy="12" rx="3" ry="9.5" transform="rotate(0,12,12)"/>
+      <ellipse cx="12" cy="12" rx="3" ry="9.5" transform="rotate(60,12,12)"/>
+      <ellipse cx="12" cy="12" rx="3" ry="9.5" transform="rotate(120,12,12)"/>
+    </g>
+    <circle cx="12" cy="12" r="3.5" fill="url(#goldCenter)"/>
+  </svg>
+  <span class="sep-line"></span>
+</div>
+
+    <div class="family-block">
+      <span class="fam-label">वधूचे कुटुंब</span>
+      <p class="fam-parents">
+        सौ. पल्लवी व श्री. उमेश अमले<br>
+        यांची लाडकी कन्या
+      </p>
+      <div class="name-bar"></div>
+      <p class="c-name-mr">चि. सौ. का. उन्नती उमेश अमले</p>
+    </div>
+
+    <div class="name-bar" style="margin-top:1.8rem"></div>
+
+    <p class="invite-text">
+      या शुभ प्रसंगी आपण व आपल्या कुटुंबासह उपस्थित राहावे, ही आमची नम्र विनंती.
+    </p>
+  </div>
+</section>
+
+
+<!-- §2b SCRATCH CARD ══════════════════════════════════════ -->
+<section id="scratch-reveal">
+
+  <div class="scratch-heading-wrap reveal">
+    <div class="scratch-pre-orn" aria-hidden="true">
+      <span class="scratch-orn-line"></span>
+      <svg width="80" height="32" viewBox="0 0 80 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="40" cy="16" rx="28" ry="10" fill="none" stroke="#C9922A" stroke-width="1" opacity="0.7"/>
+        <circle cx="40" cy="16" r="4" fill="#C9922A" opacity="0.9"/>
+        <circle cx="14" cy="16" r="2.5" fill="#C9922A" opacity="0.6"/>
+        <circle cx="66" cy="16" r="2.5" fill="#C9922A" opacity="0.6"/>
+        <path d="M6 16 Q18 8 30 16 Q18 24 6 16" fill="none" stroke="#C9922A" stroke-width="0.9" opacity="0.5"/>
+        <path d="M74 16 Q62 8 50 16 Q62 24 74 16" fill="none" stroke="#C9922A" stroke-width="0.9" opacity="0.5"/>
+      </svg>
+      <span class="scratch-orn-line"></span>
+    </div>
+    <p class="scratch-hint">शुभ तिथी जाणून घेण्यास scatch here</p>
+  </div>
+
+  <div class="scratch-wrap reveal">
+
+    <!-- ── REVEALED CONTENT underneath ── -->
+    <div class="scratch-content" id="scratch-content">
+      <div class="scratch-inner">
+
+        <!-- Corner accents -->
+        <div class="sc-corner sc-corner-tl" aria-hidden="true"></div>
+        <div class="sc-corner sc-corner-tr" aria-hidden="true"></div>
+        <div class="sc-corner sc-corner-bl" aria-hidden="true"></div>
+        <div class="sc-corner sc-corner-br" aria-hidden="true"></div>
+
+        <!-- Top ornament -->
+        <div class="scratch-orn-row" aria-hidden="true">
+          <span class="scratch-orn-line"></span>
+          <svg width="48" height="16" viewBox="0 0 48 16" fill="none">
+            <ellipse cx="24" cy="8" rx="8" ry="5" fill="none" stroke="#C9922A" stroke-width="0.9" opacity="0.85"/>
+            <circle cx="24" cy="8" r="2.2" fill="#C9922A" opacity="0.95"/>
+            <circle cx="24" cy="8" r="1"   fill="#FFE085" opacity="0.7"/>
+            <circle cx="10" cy="8" r="1.4" fill="#C9922A" opacity="0.55"/>
+            <circle cx="38" cy="8" r="1.4" fill="#C9922A" opacity="0.55"/>
+          </svg>
+          <span class="scratch-orn-line"></span>
+        </div>
+
+        <p class="scratch-headline">आनंदोत्सवात सहभागी व्हा</p>
+
+        <!-- Date blocks -->
+        <div class="scratch-dates">
+          <div class="scratch-date-block">
+            <span class="scratch-date-label">साखरपुडा</span>
+            <span class="scratch-date-main">२२ जून २०२६</span>
+            <span class="scratch-date-day">सोमवार<br>सायं. ५:००</span>
+          </div>
+          <div class="scratch-date-divider" aria-hidden="true">
+            <svg width="1" height="60" viewBox="0 0 1 60"><line x1="0.5" y1="0" x2="0.5" y2="60" stroke="rgba(201,146,42,0.35)" stroke-width="1"/></svg>
+            <span class="scratch-date-star">✦</span>
+            <svg width="1" height="60" viewBox="0 0 1 60"><line x1="0.5" y1="0" x2="0.5" y2="60" stroke="rgba(201,146,42,0.35)" stroke-width="1"/></svg>
+          </div>
+          <div class="scratch-date-block">
+            <span class="scratch-date-label">विवाह</span>
+            <span class="scratch-date-main">२३ जून २०२६</span>
+            <span class="scratch-date-day">मंगळवार<br>दु. १२:३०</span>
+          </div>
+        </div>
+
+        <!-- Bottom ornament -->
+        <div class="scratch-orn-row" aria-hidden="true">
+          <span class="scratch-orn-line"></span>
+          <svg width="48" height="16" viewBox="0 0 48 16" fill="none">
+            <ellipse cx="24" cy="8" rx="8" ry="5" fill="none" stroke="#C9922A" stroke-width="0.9" opacity="0.85"/>
+            <circle cx="24" cy="8" r="2.2" fill="#C9922A" opacity="0.95"/>
+            <circle cx="24" cy="8" r="1"   fill="#FFE085" opacity="0.7"/>
+            <circle cx="10" cy="8" r="1.4" fill="#C9922A" opacity="0.55"/>
+            <circle cx="38" cy="8" r="1.4" fill="#C9922A" opacity="0.55"/>
+          </svg>
+          <span class="scratch-orn-line"></span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── SCRATCH CANVAS on top ── -->
+    <canvas id="scratch-canvas"></canvas>
+    <div class="scratch-revealed-overlay" id="scratch-revealed-overlay"></div>
+  </div>
+</section>
+
+
+<!-- ── TRANSITION: Blessings → Sangeet+Haldi ── -->
+<div class="orn-band band-bless-events" aria-hidden="true">
+  <div class="orn-band-inner">
+    <span class="orn-line"></span>
+    <span class="orn-centre">
+      <svg width="80" height="32" viewBox="0 0 80 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="40" cy="16" rx="28" ry="10" fill="none" stroke="#C9922A" stroke-width="1" opacity="0.7"/>
+        <circle cx="40" cy="16" r="4" fill="#C9922A" opacity="0.9"/>
+        <circle cx="14" cy="16" r="2.5" fill="#C9922A" opacity="0.6"/>
+        <circle cx="66" cy="16" r="2.5" fill="#C9922A" opacity="0.6"/>
+        <path d="M6 16 Q18 8 30 16 Q18 24 6 16" fill="none" stroke="#C9922A" stroke-width="0.9" opacity="0.5"/>
+        <path d="M74 16 Q62 8 50 16 Q62 24 74 16" fill="none" stroke="#C9922A" stroke-width="0.9" opacity="0.5"/>
+      </svg>
+    </span>
+    <span class="orn-line"></span>
+  </div>
+</div>
+
+
+<!-- §3a SANGEET & HALDI (combined) ═══════════════════ -->
+<section id="ev-sangeet-haldi" class="ev-section">
+  <div class="ev-section-inner">
+
+    <span class="ev-eyebrow ev-eyebrow-sangeet-haldi">२२ जून २०२६ · सोमवार</span>
+    <div class="ev-rule ev-rule-sangeet-haldi" aria-hidden="true"></div>
+
+    <div class="ev-timeline-card reveal reveal-scale">
+
+      <div class="ev-tl-heading">
+        <p class="ev-tl-heading-label">विवाहपूर्व सोहळे</p>
+        <div class="ev-tl-heading-rule"></div>
+      </div>
+
+      <!-- Sangeet row -->
+      <div class="ev-tl-row">
+        <div class="ev-tl-dot-col">
+          <div class="ev-tl-dot"></div>
+          <div class="ev-tl-stem"></div>
+        </div>
+        <div class="ev-tl-body">
+          <h3 class="ev-tl-name">संगीत</h3>
+          <p class="ev-tl-sub">संगीत व नृत्याचा आनंदोत्सव</p>
+          <div class="ev-tl-detail">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+            <span>सायं. ७:००</span>
+          </div>
+          <div class="ev-tl-detail">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/>
+            </svg>
+            <span>श्री स्वामी कृपा हॉल, कोथरूड, पुणे</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Haldi row -->
+      <div class="ev-tl-row">
+        <div class="ev-tl-dot-col">
+          <div class="ev-tl-dot"></div>
+        </div>
+        <div class="ev-tl-body">
+          <h3 class="ev-tl-name">हळदी समारंभ</h3>
+          <p class="ev-tl-sub">सोनेरी रंगात उत्सव</p>
+          <div class="ev-tl-detail">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+            <span>रात्री ८:०० पासून</span>
+          </div>
+          <div class="ev-tl-detail">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/>
+            </svg>
+            <span>श्री स्वामी कृपा हॉल, कोथरूड, पुणे</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div><!-- /ev-section-inner -->
+</section><!-- /#ev-sangeet-haldi -->
+
+
+<!-- ── TRANSITION: Events → Wedding ── -->
+<div class="orn-band band-events-wedding" aria-hidden="true">
+  <div class="orn-band-inner">
+    <span class="orn-line"></span>
+    <span class="orn-centre">
+      <svg width="90" height="36" viewBox="0 0 90 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0" y1="18" x2="90" y2="18" stroke="#C9922A" stroke-width="0.6" opacity="0.4"/>
+        <path d="M18 18 Q27 8 36 18 Q27 28 18 18" fill="none" stroke="#C9922A" stroke-width="1" opacity="0.65"/>
+        <path d="M54 18 Q63 8 72 18 Q63 28 54 18" fill="none" stroke="#C9922A" stroke-width="1" opacity="0.65"/>
+        <circle cx="45" cy="18" r="5" fill="none" stroke="#C9922A" stroke-width="1" opacity="0.75"/>
+        <circle cx="45" cy="18" r="2" fill="#C9922A" opacity="0.85"/>
+        <circle cx="9" cy="18" r="1.5" fill="#C9922A" opacity="0.5"/>
+        <circle cx="81" cy="18" r="1.5" fill="#C9922A" opacity="0.5"/>
+      </svg>
+    </span>
+    <span class="orn-line"></span>
+  </div>
+</div>
+
+
+<!-- §3b WEDDING ═══════════════════════════════════ -->
+<section id="ev-wedding" class="ev-section">
+  <div class="ev-section-inner">
+    <span class="ev-eyebrow ev-eyebrow-wedding">२३ जून २०२६ · मंगळवार</span>
+    <div class="ev-rule ev-rule-wedding" aria-hidden="true"></div>
+
+    <div class="ev-full-card reveal reveal-scale">
+      <div class="ev-full-ph wedding-ph photo-frame">
+        <img src="assets/wedding.png" class="ev-full-img" alt="विवाह सोहळा" loading="lazy" width="540" height="270"
+             onerror="this.style.display='none'"/>
+      </div>
+      <div class="ev-full-info">
+        <h3 class="ev-name-mr ev-name-wedding">विवाह सोहळा</h3>
+        <p class="ev-name-en ev-en-wedding">शुभ विवाह</p>
+        <div class="ev-detail-row ev-row-wedding">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+          </svg>
+          <span>शुभ मुहूर्त &nbsp;|&nbsp; दुपारी १२:३०</span>
+        </div>
+        <div class="ev-detail-row ev-row-wedding">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/>
+          </svg>
+          <span>श्री स्वामी कृपा हॉल, कोथरूड, पुणे</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── TRANSITION: Wedding → Venue ── -->
+<div class="orn-band band-wedding-venue" aria-hidden="true">
+  <div class="orn-band-inner">
+    <span class="orn-line"></span>
+    <span class="orn-centre">
+      <svg width="80" height="32" viewBox="0 0 80 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="40" cy="16" rx="28" ry="10" fill="none" stroke="#C9922A" stroke-width="1" opacity="0.7"/>
+        <circle cx="40" cy="16" r="4" fill="#C9922A" opacity="0.9"/>
+        <circle cx="14" cy="16" r="2.5" fill="#C9922A" opacity="0.6"/>
+        <circle cx="66" cy="16" r="2.5" fill="#C9922A" opacity="0.6"/>
+        <path d="M6 16 Q18 8 30 16 Q18 24 6 16" fill="none" stroke="#C9922A" stroke-width="0.9" opacity="0.5"/>
+        <path d="M74 16 Q62 8 50 16 Q62 24 74 16" fill="none" stroke="#C9922A" stroke-width="0.9" opacity="0.5"/>
+      </svg>
+    </span>
+    <span class="orn-line"></span>
+  </div>
+</div>
+
+
+<!-- §4 VENUE ═══════════════════════════════════════ -->
+<section id="venue">
+  <span class="eyebrow eyebrow-pale">मंगल कार्यालय</span>
+  <div class="gold-bar gold-bar-warm" aria-hidden="true"></div>
+  <h1 class="sec-head sec-head-pale">विवाहस्थळ</h1>
+
+  <p class="venue-name reveal">श्री स्वामी कृपा हॉल</p>
+  <p class="venue-addr reveal">४, कर्वे रोड, मयूर कॉलनी, कोथरूड, पुणे.</p>
+
+  <div class="map-wrap reveal">
+    <iframe
+      data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.5692695435523!2d73.8187434!3d18.5031598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfeaae3f7cad%3A0x3cf4cb59ee98389a!2sShri%20Swami%20Krupa%20Hall!5e0!3m2!1sen!2sin!4v1773407180467!5m2!1sen!2sin"
+      title="श्री स्वामी कृपा हॉल, कोथरूड पुणे"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <div style="text-align:center">
+    <a href="https://maps.google.com/?q=Shri+Swami+Krupa+Hall,Kothrud,Pune"
+       target="_blank" rel="noopener noreferrer" class="dir-btn reveal">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polygon points="3 11 22 2 13 21 11 13 3 11"/>
+      </svg>
+      Google Maps वर पहा
+    </a>
+  </div>
+</section>
+
+
+<!-- ── TRANSITION: Venue → Countdown ── -->
+<div class="orn-band band-venue-countdown" aria-hidden="true">
+  <div class="orn-band-inner">
+    <span class="orn-line"></span>
+    <span class="orn-centre">
+      <svg width="72" height="36" viewBox="0 0 72 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="36,6 42,17 54,18 44,27 47,39 36,33 25,39 28,27 18,18 30,17" fill="none" stroke="#C9922A" stroke-width="1" opacity="0.7"/>
+        <circle cx="36" cy="22" r="4" fill="#C9922A" opacity="0.75"/>
+        <circle cx="10" cy="18" r="2" fill="none" stroke="#C9922A" stroke-width="1" opacity="0.5"/>
+        <circle cx="62" cy="18" r="2" fill="none" stroke="#C9922A" stroke-width="1" opacity="0.5"/>
+      </svg>
+    </span>
+    <span class="orn-line"></span>
+  </div>
+</div>
+
+
+<!-- §5 COUNTDOWN ══════════════════════════════════ -->
+<section id="countdown">
+  <h1><span class="eyebrow">शुभतिथी स्मरणात ठेवा</span></h1>
+  <div class="gold-bar" aria-hidden="true"></div>
+  <h2 class="sec-head cd-title">आनंदाचा क्षण आता समीप आहे</h2>
+
+  <div class="cd-row">
+    <div class="cd-box reveal d1"><span class="cd-num" id="cd-d">--</span><span class="cd-lbl">दिवस</span></div>
+    <div class="cd-box reveal d2"><span class="cd-num" id="cd-h">--</span><span class="cd-lbl">तास</span></div>
+    <div class="cd-box reveal d3"><span class="cd-num" id="cd-m">--</span><span class="cd-lbl">मिनिटे</span></div>
+    <div class="cd-box reveal d4"><span class="cd-num" id="cd-s">--</span><span class="cd-lbl">सेकंद</span></div>
+  </div>
+  <p class="cd-sub reveal">विवाह सोहळा &nbsp;&middot;&nbsp; मंगळवार, २३ जून २०२६</p>
+</section>
+
+
+<!-- ── TRANSITION: Countdown → Note ── -->
+<div class="orn-band band-countdown-note" aria-hidden="true">
+  <div class="orn-band-inner">
+    <span class="orn-line"></span>
+    <span class="orn-centre">
+      <svg width="80" height="32" viewBox="0 0 80 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 16 Q20 4 40 16 Q60 28 76 16" fill="none" stroke="#C9922A" stroke-width="1" opacity="0.6"/>
+        <path d="M4 16 Q20 28 40 16 Q60 4 76 16" fill="none" stroke="#C9922A" stroke-width="1" opacity="0.4"/>
+        <circle cx="40" cy="16" r="3.5" fill="#C9922A" opacity="0.85"/>
+        <circle cx="14" cy="18" r="1.5" fill="#C9922A" opacity="0.45"/>
+        <circle cx="66" cy="18" r="1.5" fill="#C9922A" opacity="0.45"/>
+      </svg>
+    </span>
+    <span class="orn-line"></span>
+  </div>
+</div>
+
+
+<!-- §6 NOTE ════════════════════════════════════════ -->
+<section id="note">
+  <h2 class="sec-head">वर व वधूची<br>नवदांपत्याची सस्नेह निमंत्रण</h2>
+
+  <div class="note-card reveal reveal-scale">
+    <div class="note-qm open">&ldquo;</div>
+    <p class="note-en">
+      आमच्या आयुष्यातील या मंगल आणि अविस्मरणीय क्षणी
+आपण उपस्थित राहून नवदांपत्यास आशीर्वाद द्यावेत,
+ही आमची मनःपूर्वक विनंती.
+
+आपले प्रेम, शुभेच्छा आणि सहवास
+आमच्या आनंदाला अधिक सुंदर करतील.
+
+या आनंदसोहळ्यात
+आपली उपस्थिती आम्हांस अत्यंत मोलाची ठरेल.
+    </p>
+    <div class="note-qm close">&rdquo;</div>
+    <div class="note-sep" aria-hidden="true">
+      <span class="nsep"></span>
+      <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
+  <defs>
+    <linearGradient id="goldWhitePetals" x1="0" y1="0" x2="26" y2="26">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="35%" stop-color="#FBE6A0"/>
+      <stop offset="70%" stop-color="#D4A437"/>
+      <stop offset="100%" stop-color="#FFF7DD"/>
+    </linearGradient>
+    <radialGradient id="goldWhiteCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF6D7"/>
+      <stop offset="100%" stop-color="#C88A1A"/>
+    </radialGradient>
+  </defs>
+  <g fill="url(#goldWhitePetals)">
+    <ellipse cx="13" cy="13" rx="3" ry="10" transform="rotate(0,13,13)"/>
+    <ellipse cx="13" cy="13" rx="3" ry="10" transform="rotate(45,13,13)"/>
+    <ellipse cx="13" cy="13" rx="3" ry="10" transform="rotate(90,13,13)"/>
+    <ellipse cx="13" cy="13" rx="3" ry="10" transform="rotate(135,13,13)"/>
+  </g>
+  <circle cx="13" cy="13" r="3.8" fill="url(#goldWhiteCenter)"/>
+ </svg>
+      <span class="nsep"></span>
+    </div>
+    <p class="note-sig-en">— उदय &amp; उन्नती</p>
+  </div>
+</section>
+
+
+
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-names">
+      <span class="footer-amp">
+  ✦ प्रेम व चिरंतन बंधनाचा उत्सव ✦
+  <br>
+  © २०२६ U.S.S. All rights reserved.
+</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function() {
+  const iframe = document.querySelector('.map-wrap iframe[data-src]');
+  if (!iframe) return;
+  const io = new IntersectionObserver(([e]) => {
+    if (e.isIntersecting) { iframe.src = iframe.dataset.src; io.disconnect(); }
+  }, { rootMargin: '200px' });
+  io.observe(iframe);
+})();
+</script>
+
+<script src="animate.js" defer></script>
+</body>
+</html>
